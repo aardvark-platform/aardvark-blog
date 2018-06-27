@@ -1,6 +1,7 @@
 # Linux
 *~
 *.swp
+/secret
 
 # Windows
 Thumbs.db
