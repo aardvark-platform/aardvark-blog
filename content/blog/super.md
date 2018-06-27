@@ -24,7 +24,7 @@ as the [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 Code can be easily embedded but sadly F# syntax highlighting doesn't work
 ```fsharp
 let funny (a : int) =
-	supa
+	besser
 	a * 2
 
 ```
