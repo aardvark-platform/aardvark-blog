@@ -6,7 +6,7 @@ $ref = substr($ref, 0, strpos( $ref, "\n" ) );
 
 
 if(strcmp($sig, $ref) == 0) {
-    system("git pull origin master");    
+    shell_exec("git pull origin master");    
 }
 
 
