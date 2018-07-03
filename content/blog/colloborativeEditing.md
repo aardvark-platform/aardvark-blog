@@ -1,8 +1,8 @@
 ---
-Title: Hello from Aardvark 2s
-Description: This is the first Aardvark blog post
-Author: Aardvark Platform Team 2
-Date: 2018-06-27
+Title: Colloborative editing in Aardvark Media
+Description: TechDemo for Media SubApps
+Author: Aardvark Platform Team
+Date: 2018-07-03
 Robots: noindex,nofollow
 Template: blog-post
 ---
