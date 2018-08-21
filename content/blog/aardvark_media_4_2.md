@@ -87,7 +87,11 @@ module Integrator =
 
 - `extractAttributes` lost a useless parameter: `CameraController.extractAttributes : MCameraModel -> (CameraController.Message -> 'msg) -> amap<string,AttributeValue<'msg>>`
 - `CameraController` module is deprecated
-- mouseEvents get double values instead of integers in order to reflect (e.g. pageX)[https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/clientX]
+
+
+# Upcoming
+
+- mouseEvents get double values instead of integers in order to reflect (e.g. [clientX](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/clientX))
 
 # Minor stuff
 
