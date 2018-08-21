@@ -78,6 +78,10 @@ module Integrator =
             integrate maxDt f (f m0 maxDt) (dt - maxDt) 
 ```
 
+# Improved implementation of SubApps
+
+An almost complete rewrite of the UI updater module allows us to use nested subapps with the full power of UI.map.
+
 # Screenshots for free
 
 `F12` now lets you download a screenshot of your focused render control.
