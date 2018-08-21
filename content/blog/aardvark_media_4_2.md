@@ -78,6 +78,10 @@ module Integrator =
             integrate maxDt f (f m0 maxDt) (dt - maxDt) 
 ```
 
+# Screenshots for free
+
+`F12` now lets you download a screenshot of your focused render control.
+
 # In the next aardium version
 
 - aardium no longer globally hooks F10/F11/F5 which collides with visual studio shortcuts
