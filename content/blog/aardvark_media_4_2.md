@@ -35,8 +35,7 @@ rendering frequency). Thus:
  
  The code is really beautiful and is an excellent example of composable functional programming, here in the domain of signal processing.
 
- We use a differentiated type: `type CameraMotion = { dPos : V3d; dRot : V3d; dMoveSpeed : float; dZoom : float; dPan : V2d; dDolly : float } ``
- which provides functions for multiplying scalars, a zero element and a function for applying the delta to the state (seealso)[https://github.com/aardvark-platform/aardvark.media/blob/master/src/Aardvark.UI.Primitives/FreeFlyController.fs#L19].
+ We use a differentiated type: `type CameraMotion = { dPos : V3d; dRot : V3d; dMoveSpeed : float; dZoom : float; dPan : V2d; dDolly : float }` which provides functions for multiplying scalars, a zero element and a function for applying the delta to the state (seealso)[https://github.com/aardvark-platform/aardvark.media/blob/master/src/Aardvark.UI.Primitives/FreeFlyController.fs#L19].
 
 The real integration (with support for long frames looks as such):
 ``` 
@@ -87,6 +86,8 @@ module Integrator =
 # Breaking changes 
 
 - `extractAttributes` lost a useless parameter: `CameraController.extractAttributes : MCameraModel -> (CameraController.Message -> 'msg) -> amap<string,AttributeValue<'msg>>`
+- `CameraController` module is deprecated
+- mouseEvents get double values instead of integers in order to reflect (e.g. pageX)[https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/clientX]
 
 # Minor stuff
 
