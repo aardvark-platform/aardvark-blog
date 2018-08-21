@@ -31,7 +31,7 @@ rendering frequency). Thus:
  for animations.
  - a new [example](https://github.com/aardvark-platform/aardvark.media/blob/master/src/Examples%20(dotnetcore)/18%20-%20CameraControllerSettings/App.fs) shows the parameters. 
 
- ![Image of Yaktocat](newCameraController.png)
+ ![Image of Yaktocat](%base_url%/assets/newCameraController.png)
  
  The code is really beautiful and is an excellent example of composable functional programming, here in the domain of signal processing.
 
