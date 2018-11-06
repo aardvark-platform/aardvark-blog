@@ -18,9 +18,15 @@
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
     <link rel="stylesheet" href="{{ theme_url }}/css/droidsans.css" type="text/css" />
     <link rel="stylesheet" href="{{ theme_url }}/css/fontello.css" type="text/css" />
+    <link rel="stylesheet" href="{{ base_url }}/plugins/mcb_TableOfContent/style.css" media="screen,projection,print">
+    <link rel="stylesheet" href="{{ base_url }}/plugins/mcb_TableOfContent/print.css" media="print">
+    
+    <script src="{{ base_url }}/plugins/mcb_TableOfContent/code.js">
+    </script>` after `<script src="{{ base_url }}/vendor/jquery/jquery.min.js"></script>
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
-
+{{ mcb_toc_top }}
+    {{ mcb_toc }}
     <div id="header">
         <div class="container">
             <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
