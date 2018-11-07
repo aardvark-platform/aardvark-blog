@@ -25,14 +25,16 @@
     </script>` after `<script src="{{ base_url }}/vendor/jquery/jquery.min.js"></script>
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
-{{ mcb_toc_top }}
     
+    {{ mcb_top }}
+
     <div id="header">
         <div class="container">
             <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
                 <span class="icon-menu" aria-hidden="true"></span>
                 <span class="sr-only">Toggle Menu</span>
             </a>
+            {{ mcb_toc }}
             <h1>
                 <a href="{{ "index"|link }}">Home</a>
             </h1>
@@ -52,8 +54,7 @@
     </div>
 
     <div id="main">
-        <div class="container">
-            {{ mcb_toc }}
+        <div class="container">            
             {{ content }}
         </div>
     </div>
