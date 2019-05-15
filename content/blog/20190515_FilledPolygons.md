@@ -1,12 +1,12 @@
 ---
 Title: Filled Polygons
-Description: Code review by example
+Description: Filled polygons for 3d lasso selection
 Author: Andreas Walch
 Date: 2019-05-15
 Robots: noindex,nofollow
 Template: blog-post
 ---
-# Filled Polygons
+# Filled Polygons for 3d lasso selection
 
 Content will follow soon :)
 
