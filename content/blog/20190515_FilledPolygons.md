@@ -8,7 +8,7 @@ Template: blog-post
 ---
 # Filled Polygons for 3d lasso selection
 
-Content will follow soon :)
+Content will follow soon :) hopefully
 
 ## Plane Fitted
 
